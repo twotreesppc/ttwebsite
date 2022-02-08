@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link} from 'gatsby'
 
-import Logo from "../../assets/images/white-logo.png"
+import Logo from "../../assets/images/blueblkArtboard 1.png"
 import BlackLogo from "../../assets/images/logo.png"
 
 import InstagramImg1 from "../../assets/images/team/team-img1.jpg"

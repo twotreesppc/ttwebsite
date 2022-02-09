@@ -532,9 +532,7 @@ const Navbar = () => {
                             
                             <div className="sidebar-contact-info">
                                 <h2>
-                                    <a to="tel:+11234567890">+1 (123) 456 7890</a>
-                                    <span>OR</span>
-                                    <a to="mailto:hello@mibix.com">hello@mibix.com</a>
+                                    <a to="tel:+19166341570">+1 (916) 634 1570</a>
                                 </h2>
                             </div>
 

@@ -60,9 +60,9 @@ const MainBanner = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-content">
-                                        <span className="sub-title">Growth Your Business</span>
-                                        <h1>We Provide Best Digital Marketing Solutions</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                        <span className="sub-title">Full Service Digital Agency</span>
+                                        <h1>The Last Humans In Marketing&#174; </h1>
+                                        <p>We offer human-powered digital marketing services to business owners of all kinds. Call us to learn more about our enterprise-level services for established advertisers, agencies, and small business consultations.</p>
                                         
                                         <div className="btn-box">
                                             <div className="d-flex align-items-center">
@@ -93,9 +93,9 @@ const MainBanner = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-content">
-                                        <span className="sub-title">Seo Marketing</span>
-                                        <h1>We Provide Best SEO Marketing Solutions</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                        <span className="sub-title">Next Level Google Ads Management</span>
+                                        <h1>Human Managed Google Ads Campaigns</h1>
+                                        <p>In a world obsessed with automation and taking human eyes off digital ad spend, we're doubling down on our human investment in creating digital campaign excellence.</p>
                                         
                                         <div className="btn-box">
                                             <div className="d-flex align-items-center">

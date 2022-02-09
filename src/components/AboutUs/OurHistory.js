@@ -11,14 +11,14 @@ const OurHistory = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">Our History</span>
-                    <h2>History Begins In 2010</h2>
+                    <h2>We started our journey in 2017</h2>
                 </div>
 
                 <ol className="timeline history-timeline">
                     <li className="timeline-block">
                         <div className="timeline-date">
-                            <span>2010</span>
-                            February 20
+                            <span>2017</span>
+                            December 17
                             <sup>th</sup>
                         </div>
 

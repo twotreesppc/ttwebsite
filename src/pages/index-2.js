@@ -19,8 +19,8 @@ import Footer from '../components/App/Footer';
 const HomeTwo = () => {
     return (
         <Layout>
-            <SEO title="Home Two" />
-            <NavbarStyleTwo />
+            <SEO title="Two Trees PPC Google Certified Partner Agency Sacramento" />
+            <Navbar />
             <MainBanner />
             <FeaturedService />
             <AboutSection />

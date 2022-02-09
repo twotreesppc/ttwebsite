@@ -413,24 +413,8 @@ const NavbarStyleTwo = () => {
 
                             <div className="others-option d-flex align-items-center">
                                 <div className="option-item">
-                                    <div className="cart-btn">
-                                        <Link to="/cart">
-                                            <i className="flaticon-shopping-cart"></i>
-                                            <span>1</span>
-                                        </Link>
-                                    </div>
+                                   <a href="tel:19166341570">(916) 634-1570</a>
                                 </div>
-
-                                <div className="option-item">
-                                    <div className="search-box" onClick={handleToggleSearchModal}>
-                                        <i className="flaticon-search"></i>
-                                    </div>
-                                </div>
-
-                                <div className="option-item">
-                                    <div className="side-menu-btn" onClick={handleToggleSidebarModal}>
-                                        <i className="flaticon-menu"></i>
-                                    </div>
                                 </div>
                             </div>
                         </nav>

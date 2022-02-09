@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../components/App/Layout"
 import SEO from "../components/App/SEO"
-import Navbar from '../components/App/Navbar';
+import NavbarStyleTwo from '../components/App/NavbarStyleTwo';
 import MainBanner from '../components/HomeDemoTwo/MainBanner';
 import FeaturedService from '../components/HomeDemoTwo/FeaturedService';
 import AboutSection from '../components/HomeDemoTwo/AboutSection';
@@ -20,7 +20,7 @@ const HomeTwo = () => {
     return (
         <Layout>
             <SEO title="Two Trees PPC Google Certified Partner Agency Sacramento" />
-            <Navbar />
+            <NavbarStyleTwo />
             <MainBanner />
             <FeaturedService />
             <AboutSection />

@@ -9190,6 +9190,8 @@ Footer Area CSS
   display: inline-block;
 }
 
+.single-footer-widget img {height: 80px;}
+
 .single-footer-widget .social-link {
   padding-left: 0;
   list-style-type: none;

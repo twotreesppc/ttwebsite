@@ -415,8 +415,7 @@ const NavbarStyleTwo = () => {
                                 <div className="option-item">
                                    <a href="tel:19166341570">(916) 634-1570</a>
                                 </div>
-                                </div>
-                            </div>
+                                                           </div>
                         </nav>
                     </div>
                 </div>

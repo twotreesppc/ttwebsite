@@ -74,61 +74,27 @@ const NavbarStyleTwo = () => {
                                 
 
                                     <li className="nav-item">
-                                        <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link to="/about-us-1" onClick={e => e.preventDefault()} className="nav-link">
                                             About <i className='bx bx-chevron-down'></i>
                                         </Link>
 
                                         <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/about-us-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    About Us One
-                                                </Link>
-                                            </li> 
-
-                                            <li className="nav-item">
-                                                <Link to="/about-us-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    About Us Two
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/team-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Team One
-                                                </Link>
-                                            </li> 
-
+                                            
                                             <li className="nav-item">
                                                 <Link to="/team-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Team Two
+                                                    Meet The Team
                                                 </Link>
                                             </li> 
                                         </ul>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
-                                            Services <i className='bx bx-chevron-down'></i>
+                                        <Link to="/services-2" onClick={e => e.preventDefault()} className="nav-link">
+                                            Solutions <i className='bx bx-chevron-down'></i>
                                         </Link>
     
                                         <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/services-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Services One
-                                                </Link>
-                                            </li> 
-
-                                            <li className="nav-item">
-                                                <Link to="/services-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Services Two
-                                                </Link>
-                                            </li> 
-
-                                            <li className="nav-item">
-                                                <Link to="/services-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Services Three
-                                                </Link>
-                                            </li> 
-
+                                          
                                             <li className="nav-item">
                                                 <Link to="/single-services" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                                     Services Details

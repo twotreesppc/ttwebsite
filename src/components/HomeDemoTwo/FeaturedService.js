@@ -15,15 +15,15 @@ const FeaturedService = () => {
                                 </div>
                             </div>
                             <h3>
-                                <Link to="/single-services">
-                                    Marketing Analysis
+                                <Link to="/services-2">
+                                    Digital Marketing
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <p>From paid advertising to SEO, we help local businesses with getting maximum value out of every marketing budget dollar.</p>
 
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
-                                Learn More 
+                                Get Started 
                                 <i className="right-icon flaticon-next-button"></i>
                             </Link>
                         </div>
@@ -42,11 +42,11 @@ const FeaturedService = () => {
                                     Website Optimization
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <p>We build, host and maintain some of the fastest websites on the internet. With us, your online presence is in the best hands!</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
-                                Learn More 
+                                Get Started 
                                 <i className="right-icon flaticon-next-button"></i>
                             </Link>
                         </div>
@@ -62,14 +62,14 @@ const FeaturedService = () => {
                             </div>
                             <h3>
                                 <Link to="/single-services">
-                                    Email Marketing
+                                    Data Services
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <p>With millions of data points available, our data team can develop precise digital audience targets for your business.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
-                                Learn More 
+                                Get Started
                                 <i className="right-icon flaticon-next-button"></i>
                             </Link>
                         </div>

@@ -61,7 +61,7 @@ const MainBanner = () => {
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-content">
                                         <span className="sub-title">Full Service Digital Agency</span>
-                                        <h1>The Last Humans In Marketing&#174; </h1>
+                                        <h1>The Last Humans In Marketing</h1>&#174; 
                                         <p>We offer human-powered digital marketing services to business owners of all kinds. Call us to learn more about our enterprise-level services for established advertisers, agencies, and small business consultations.</p>
                                         
                                         <div className="btn-box">

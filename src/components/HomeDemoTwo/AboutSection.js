@@ -32,8 +32,8 @@ const AboutSection = () => {
                                     </li>
                                     <li>
                                         <div className="list">
-                                            <i className="flaticon-web-settings"></i>
-                                            <h3>$9.3M</h3>
+                                            <i className="flaticon-ppc"></i>
+                                            <h3>9.3M</h3>
                                             <p>Ad Spend Managed To Date</p>
                                         </div>
                                     </li>

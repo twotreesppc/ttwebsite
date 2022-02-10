@@ -5,12 +5,12 @@ import NavbarStyleTwo from '../components/App/NavbarStyleTwo';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/App/Footer';
 
-import TeamImg1 from '../assets/images/team/team-img1.jpg'
-import TeamImg2 from '../assets/images/team/team-img2.jpg'
-import TeamImg3 from '../assets/images/team/team-img3.jpg'
-import TeamImg4 from '../assets/images/team/team-img4.jpg'
-import TeamImg5 from '../assets/images/team/team-img5.jpg'
-import TeamImg6 from '../assets/images/team/team-img6.jpg'
+import TeamImg1 from '../assets/images/team/mike-sq.jpg'
+import TeamImg2 from '../assets/images/team/mirah-sq.jpg'
+import TeamImg3 from '../assets/images/team/aaron-sq.jpg'
+import TeamImg4 from '../assets/images/team/lexi-sq.jpg'
+import TeamImg5 from '../assets/images/team/abigail-sq.jpg'
+import TeamImg6 from '../assets/images/team/cecilia-sq.jpg'
 import TeamImg7 from '../assets/images/team/team-img7.jpg'
 import TeamImg8 from '../assets/images/team/team-img8.jpg'
 import TeamImg9 from '../assets/images/team/team-img9.jpg'
@@ -21,12 +21,12 @@ import TeamImg12 from '../assets/images/team/team-img12.jpg'
 const Team2 = () => {
     return (
         <Layout>
-            <SEO title="Team" />
+            <SEO title="Meet The Team" />
 
 			<NavbarStyleTwo />
 
 			<PageBanner 
-                pageTitle="Team Style Two" 
+                pageTitle="Meet The Last Humans In Marketing" 
             />  
 			
             <div className="team-area-two pt-100 pb-70">
@@ -46,8 +46,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>James Anderson</h3>
-                                    <span>CEO</span>
+                                    <h3>Michael Wisby</h3>
+                                    <span>Co-Founder, CEO</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>Sarah Taylor</h3>
-                                    <span>Marketing Lead</span>
+                                    <h3>Mirah Lucas</h3>
+                                    <span>Managing Partner, COO</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>Taylor Sopia</h3>
-                                    <span>Web Designer</span>
+                                    <h3>Aaron Brynen</h3>
+                                    <span>Digital Marketing Consultant</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>Harry Steve</h3>
-                                    <span>Web Developer</span>
+                                    <h3>Lexi Spencer</h3>
+                                    <span>Digital Marketing Manager</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -130,8 +130,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>Alina Smith</h3>
-                                    <span>Advisor</span>
+                                    <h3>Abigail Bolla</h3>
+                                    <span>Digital Marketing Assistant</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -151,8 +151,8 @@ const Team2 = () => {
                                 </div>
 
                                 <div className="content">
-                                    <h3>David Warner</h3>
-                                    <span>Support</span>
+                                    <h3>Cecilia Qu'in</h3>
+                                    <span>Content Marketer</span>
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
@@ -282,7 +282,8 @@ const Team2 = () => {
                                     <i className="flaticon-share-icon"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
+                        
                     </div>
                 </div>
             </div>

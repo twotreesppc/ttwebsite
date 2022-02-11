@@ -106,7 +106,7 @@ const BlogDetails = () => {
 
                                     <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
 
-                                    <ul className="wp-block-gallery columns-3">
+                                    <ul className="wp-block-gallery columns-2">
                                         <li className="blocks-gallery-item">
                                             <figure>
                                                 <img src={BlogImg1} alt="Blog" />
@@ -119,12 +119,7 @@ const BlogDetails = () => {
                                             </figure>
                                         </li>
 
-                                        <li className="blocks-gallery-item">
-                                            <figure>
-                                                <img src={BlogImg3} alt="Blog" />
-                                            </figure>
-                                        </li>
-                                    </ul>
+                                                                          </ul>
 
                                     <h3>Four major elements that we offer:</h3>
 

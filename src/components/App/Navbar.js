@@ -340,16 +340,13 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link to="/blog-2" onClick={e => e.preventDefault()} className="nav-link">
-                                            Blog <i className='bx bx-chevron-down'></i>
+                                            Blog
                                         </Link>
-
-                                        
-                                                
                                     </li>
 
                                     <li className="nav-item">
                                         <Link to="/contact" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                            Contact
+                                            Get Started
                                         </Link>
                                     </li>
                                 </ul>

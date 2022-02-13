@@ -11,12 +11,6 @@ import TeamImg3 from '../assets/images/team/aaron-sq.jpg'
 import TeamImg4 from '../assets/images/team/lexi-sq.jpg'
 import TeamImg5 from '../assets/images/team/abigail-sq.jpg'
 import TeamImg6 from '../assets/images/team/cecilia-sq.jpg'
-import TeamImg7 from '../assets/images/team/team-img7.jpg'
-import TeamImg8 from '../assets/images/team/team-img8.jpg'
-import TeamImg9 from '../assets/images/team/team-img9.jpg'
-import TeamImg10 from '../assets/images/team/team-img10.jpg'
-import TeamImg11 from '../assets/images/team/team-img11.jpg'
-import TeamImg12 from '../assets/images/team/team-img12.jpg'
 
 const Team2 = () => {
     return (

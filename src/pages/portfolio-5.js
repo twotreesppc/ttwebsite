@@ -36,10 +36,10 @@ const PortfolioFive = () => {
                                 <div className="content">
                                     <h3>
                                         <Link to="/single-portfolio">
-                                            Movie Recommendation
+                                            William Jessup University
                                         </Link>
                                     </h3>
-                                    <span>System Project</span>
+                                    <span>Education</span>
 
                                     <Link to="/single-portfolio" className="link-btn">
                                         <i className="flaticon-next-button"></i>

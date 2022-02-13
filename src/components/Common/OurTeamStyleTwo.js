@@ -50,8 +50,8 @@ const OurTeamStyleTwo = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">Our Team</span>
-                    <h2>We Help to Acheive Your Business Goal</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Human Powered Success</h2>
+                    <p>Don't leave your marketing to the automated software all the big agencies use to save on costs. We have a highly talented crew of marketing nerds working hard for our clients. We're all based in Sacramento, CA and we work very well together in a positive work environment!</p>
                 </div>
 
                 {display ? <OwlCarousel 
@@ -71,7 +71,7 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>James Anderson</h3>
+                            <h3>Michael Wisby</h3>
                             <span>CEO</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
@@ -90,8 +90,8 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>Sarah Taylor</h3>
-                            <span>Marketing Lead</span>
+                        <h3>Mirah Lucas</h3>
+                        <span>Chief Operations Officer</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>Taylor Sopia</h3>
-                            <span>Web Designer</span>
+                        <h3>Aaron Brynen</h3>
+                        <span>Digital Marketing Consultant</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>
@@ -128,8 +128,8 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>Harry Steve</h3>
-                            <span>Web Developer</span>
+                            <h3>Lexi Spencer</h3>
+                            <span>Digital Marketing Manager</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>
@@ -147,8 +147,8 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>Alina Smith</h3>
-                            <span>Advisor</span>
+                            <h3>Abigail Bolla</h3>
+                            <span>Digital Marketing Assistant</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>
@@ -166,8 +166,8 @@ const OurTeamStyleTwo = () => {
                         </div>
 
                         <div className="content">
-                            <h3>David Warner</h3>
-                            <span>Support</span>
+                            <h3>Cecilia Qu'in</h3>
+                            <span>Content Marketer</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>

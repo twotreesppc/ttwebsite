@@ -18,8 +18,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg1} alt="team-image" />
 
                             <div className="content">
-                                <h3>James Anderson</h3>
-                                <span>CEO</span>
+                                <h3>Michael Wisby</h3>
+                                <span>Chief Strategist / CEO</span>
                             </div>
 
                             <ul className="social-link">
@@ -36,8 +36,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg2} alt="team-image" />
 
                             <div className="content">
-                                <h3>Sarah Taylor</h3>
-                                <span>Marketing Lead</span>
+                                <h3>Mirah Lucas</h3>
+                                <span>Chief Operations Officer</span>
                             </div>
 
                             <ul className="social-link">
@@ -52,7 +52,7 @@ const OurTeamStyleOne = () => {
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="section-title">
                             <span className="sub-title">Our Team</span>
-                            <h2>We Help to Acheive Your Business Goal</h2>
+                            <h2>Human Powered Success</h2>
 
                             <Link to="/team-1" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -66,8 +66,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg3} alt="team-image" />
 
                             <div className="content">
-                                <h3>Taylor Sopia</h3>
-                                <span>Web Designer</span>
+                                <h3>Aaron Brynen</h3>
+                                <span>Digital Marketing Consultant</span>
                             </div>
 
                             <ul className="social-link">
@@ -84,8 +84,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg4} alt="team-image" />
 
                             <div className="content">
-                                <h3>Harry Steve</h3>
-                                <span>Web Developer</span>
+                                <h3>Lexi Spencer</h3>
+                                <span>Digital Marketing Manager</span>
                             </div>
 
                             <ul className="social-link">
@@ -102,8 +102,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg5} alt="team-image" />
 
                             <div className="content">
-                                <h3>Alina Smith</h3>
-                                <span>Advisor</span>
+                                <h3>Abigail Bolla</h3>
+                                <span>Digital Marketing Assistant</span>
                             </div>
 
                             <ul className="social-link">
@@ -120,8 +120,8 @@ const OurTeamStyleOne = () => {
                             <img src={TeamImg6} alt="team-image" />
 
                             <div className="content">
-                                <h3>David Warner</h3>
-                                <span>Support</span>
+                                <h3>Cecilia Qu'in</h3>
+                                <span>Content Marketer</span>
                             </div>
 
                             <ul className="social-link">

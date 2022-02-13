@@ -72,7 +72,7 @@ const OurTeamStyleTwo = () => {
 
                         <div className="content">
                             <h3>Michael Wisby</h3>
-                            <span>CEO</span>
+                            <span>Chief Strategist / CEO</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const OurTeamStyleTwo = () => {
 
                         <div className="content">
                             <h3>Abigail Bolla</h3>
-                            <span>Digital Marketing Assistant</span>
+                            <span>Production Assistant</span>
                             <i className="flaticon-share-icon"></i>
                         </div>
                     </div>

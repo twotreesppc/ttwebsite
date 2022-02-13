@@ -91,182 +91,25 @@ const NavbarStyleTwo = () => {
 
                                     <li className="nav-item">
                                         <Link to="/services-2" onClick={e => e.preventDefault()} className="nav-link">
-                                            Solutions <i className='bx bx-chevron-down'></i>
+                                            Solutions 
                                         </Link>
-    
-                                        <ul className="dropdown-menu">
-                                          
-                                            <li className="nav-item">
-                                                <Link to="/single-services" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Services Details
-                                                </Link>
-                                            </li> 
-                                        </ul>
-                                    </li>
-    
+                                     </li>
+     
                                     <li className="nav-item">
-                                        <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
-                                            Pages <i className='bx bx-chevron-down'></i>
+                                        <Link to="/portfolio-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
+                                            Case Studies
                                         </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/pricing" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Pricing
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/gallery" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Gallery
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
-                                                    Shop <i className='bx bx-chevron-right'></i>
-                                                </Link>
-
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link to="/products-list" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Products List
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/cart" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Cart
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/checkout" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Checkout
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/product-details" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Products Details
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/faq" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    FAQ's
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/404" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    404 Error Page
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/coming-soon" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Coming Soon
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/profile-authentication" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Login/Register
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/privacy-policy" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Privacy Policy
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/terms-of-service" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Terms of Service
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-    
-                                    <li className="nav-item">
-                                        <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
-                                            Portfolio <i className='bx bx-chevron-down'></i>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                    Portfolio Style One <i className='bx bx-chevron-right'></i>
-                                                </Link>
-
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio 2 Columns
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio 3 Columns
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio No Space
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                    Portfolio Style Two <i className='bx bx-chevron-right'></i>
-                                                </Link>
-
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-4" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio 2 Columns
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio 3 Columns
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/portfolio-6" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Portfolio No Space
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        
-                                            <li className="nav-item">
-                                                <Link to="/single-portfolio" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Portfolio Details
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link to="/blog-2" onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link to="/blog-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                             Blog                                        
                                         </Link>                                                                          
                                     </li>
 
                                     <li className="nav-item">
                                         <Link to="/contact" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                            Contact
+                                            Get Started
                                         </Link>
                                     </li>
                                 </ul>

@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-import TeamImg1 from '../../assets/images/team/team-img1.jpg'
-import TeamImg2 from '../../assets/images/team/team-img2.jpg'
-import TeamImg3 from '../../assets/images/team/team-img3.jpg'
-import TeamImg4 from '../../assets/images/team/team-img4.jpg'
-import TeamImg5 from '../../assets/images/team/team-img5.jpg'
-import TeamImg6 from '../../assets/images/team/team-img6.jpg'
-import TeamImg7 from '../../assets/images/team/team-img7.jpg'
-import TeamImg8 from '../../assets/images/team/team-img8.jpg'
-import TeamImg9 from '../../assets/images/team/team-img9.jpg'
+import TeamImg1 from '../../assets/images/team/mike-sq.jpg'
+import TeamImg2 from '../../assets/images/team/mirah-sq.jpg'
+import TeamImg3 from '../../assets/images/team/aaron-sq.jpg'
+import TeamImg4 from '../../assets/images/team/lexi-sq.jpg'
+import TeamImg5 from '../../assets/images/team/abigail-sq.jpg'
+import TeamImg6 from '../../assets/images/team/cecilia-sq.jpg'
 
 const BlogSidebar = () => {
     return (
@@ -149,30 +146,6 @@ const BlogSidebar = () => {
                     <li>
                         <div className="box">
                             <img src={TeamImg6} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg7} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg8} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg9} alt="Team" />
                             <i className="bx bxl-instagram"></i>
                             <a href="#" target="_blank" className="link-btn"></a>
                         </div>

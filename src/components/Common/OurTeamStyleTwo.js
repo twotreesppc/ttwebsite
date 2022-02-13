@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TeamImg1 from "../../assets/images/team/team-img1.jpg"
-import TeamImg2 from "../../assets/images/team/team-img2.jpg"
-import TeamImg3 from "../../assets/images/team/team-img3.jpg"
-import TeamImg4 from "../../assets/images/team/team-img4.jpg"
-import TeamImg5 from "../../assets/images/team/team-img5.jpg"
-import TeamImg6 from "../../assets/images/team/team-img6.jpg"
+import TeamImg1 from '../../assets/images/team/mike-sq.jpg'
+import TeamImg2 from '../../assets/images/team/mirah-sq.jpg'
+import TeamImg3 from '../../assets/images/team/aaron-sq.jpg'
+import TeamImg4 from '../../assets/images/team/lexi-sq.jpg'
+import TeamImg5 from '../../assets/images/team/abigail-sq.jpg'
+import TeamImg6 from '../../assets/images/team/cecilia-sq.jpg'
 import Shape17 from "../../assets/images/shape/shape17.png"
 
 import Loadable from '@loadable/component'

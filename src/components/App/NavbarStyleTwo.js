@@ -4,12 +4,12 @@ import {Link} from 'gatsby'
 import Logo from "../../assets/images/white-logo.png"
 import BlackLogo from "../../assets/images/logo.png"
 
-import InstagramImg1 from '../assets/images/team/mike-sq.jpg'
-import InstagramImg2 from '../assets/images/team/mirah-sq.jpg'
-import InstagramImg3 from '../assets/images/team/aaron-sq.jpg'
-import InstagramImg4 from '../assets/images/team/lexi-sq.jpg'
-import InstagramImg5 from '../assets/images/team/abigail-sq.jpg'
-import InstagramImg6 from '../assets/images/team/cecilia-sq.jpg'
+import InstagramImg1 from '../../assets/images/team/mike-sq.jpg'
+import InstagramImg2 from '../../assets/images/team/mirah-sq.jpg'
+import InstagramImg3 from '../../assets/images/team/aaron-sq.jpg'
+import InstagramImg4 from '../../assets/images/team/lexi-sq.jpg'
+import InstagramImg5 from '../../assets/images/team/abigail-sq.jpg'
+import InstagramImg6 from '../../assets/images/team/cecilia-sq.jpg'
 
 
 const NavbarStyleTwo = () => {

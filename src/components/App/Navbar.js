@@ -339,67 +339,12 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link to="/#" onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link to="/blog-2" onClick={e => e.preventDefault()} className="nav-link">
                                             Blog <i className='bx bx-chevron-down'></i>
                                         </Link>
 
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/blog-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Grid (2 in Row)
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/blog-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Grid (3 in Row)
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/blog-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Grid (Full Width)
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/blog-4" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Right Sidebar
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/blog-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Left Sidebar
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                    Single Post <i className='bx bx-chevron-right'></i>
-                                                </Link>
-
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link to="/single-blog-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            Default
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/single-blog-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            With Video
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link to="/single-blog-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                            With Image Slider
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        
+                                                
                                     </li>
 
                                     <li className="nav-item">

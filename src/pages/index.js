@@ -11,8 +11,6 @@ import TestimonialStyleTwo from '../components/Common/TestimonialStyleTwo';
 import CaseStudies from '../components/Common/CaseStudies';
 import Partner from '../components/Common/Partner';
 import OurTeamStyleTwo from '../components/Common/OurTeamStyleTwo';
-import Pricing from '../components/Common/Pricing';
-import StartProjectWithUs from '../components/Common/StartProjectWithUs';
 import LatestBlogPost from '../components/Common/LatestBlogPost';
 import Footer from '../components/App/Footer';
 
@@ -30,8 +28,6 @@ const HomeTwo = () => {
             <CaseStudies />
             <Partner />
             <OurTeamStyleTwo />
-            <Pricing />
-            <StartProjectWithUs />
             <LatestBlogPost />
             <Footer />
         </Layout>

@@ -4,13 +4,6 @@ import {Link} from 'gatsby'
 import Logo from "../../assets/images/white-logo.png"
 import BlackLogo from "../../assets/images/logo.png"
 
-import InstagramImg1 from '../../assets/images/team/mike-sq.jpg'
-import InstagramImg2 from '../../assets/images/team/mirah-sq.jpg'
-import InstagramImg3 from '../../assets/images/team/aaron-sq.jpg'
-import InstagramImg4 from '../../assets/images/team/lexi-sq.jpg'
-import InstagramImg5 from '../../assets/images/team/abigail-sq.jpg'
-import InstagramImg6 from '../../assets/images/team/cecilia-sq.jpg'
-
 
 const NavbarStyleTwo = () => {
     const [menu, setMenu] = React.useState(true)
@@ -30,18 +23,6 @@ const NavbarStyleTwo = () => {
         });
         window.scrollTo(0, 0); 
     })
-
-    // Search Modal
-    const [isActiveSearchModal, setActiveSearchModal] = useState("false");
-    const handleToggleSearchModal = () => {
-        setActiveSearchModal(!isActiveSearchModal);
-    };
-
-    // Sidebar Modal
-    const [isActiveSidebarModal, setActiveSidebarModal] = useState("false");
-    const handleToggleSidebarModal = () => {
-        setActiveSidebarModal(!isActiveSidebarModal);
-    };
  
     const classOne = menu ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = menu ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -75,22 +56,19 @@ const NavbarStyleTwo = () => {
                                 
 
                                     <li className="nav-item">
-                                        <Link to="/about-us-1" onClick={e => e.preventDefault()} className="nav-link">
-                                            About <i className='bx bx-chevron-down'></i>
+                                        <Link to="/about-us-1" activeclassname="active" onClick={toggleNavbar} className="nav-link">
+                                            Why Two Trees?
                                         </Link>
-
-                                        <ul className="dropdown-menu">
-                                            
-                                            <li className="nav-item">
-                                                <Link to="/team-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Meet The Team
-                                                </Link>
-                                            </li> 
-                                        </ul>
                                     </li>
-
+                                                                                 
                                     <li className="nav-item">
-                                        <Link to="/services-2" onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link to="/team-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
+                                            Meet The Team
+                                        </Link>
+                                    </li> 
+                            
+                                    <li className="nav-item">
+                                        <Link to="/services-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                             Solutions 
                                         </Link>
                                      </li>

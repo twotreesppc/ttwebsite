@@ -29,23 +29,23 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-md-6 col-sm-6">
                         <div className="single-footer-widget pl-5">
-                            <h3>Explore</h3>
+                            <h3>Company</h3>
 
                             <ul className="footer-links-list">
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <Link to="/contact">Get Started</Link>
                                 </li>
                                 <li>
-                                    <Link to="/about-us-1">About</Link>
+                                    <Link to="/about-us-1">Our Story</Link>
                                 </li>
                                 <li>
-                                    <Link to="/pricing">Pricing</Link>
+                                    <Link to="/portfolio-5">Case Studies</Link>
                                 </li>
                                 <li>
-                                    <Link to="/portfolio-1">Portfolio</Link>
+                                    <Link to="/blog-2">Blog</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Contact</Link>
+                                    <Link to="/team-2">Meet The Team</Link>
                                 </li>
                             </ul>
                         </div>
@@ -53,23 +53,23 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-md-6 col-sm-6">
                         <div className="single-footer-widget pl-2">
-                            <h3>Resources</h3>
+                            <h3>Solutions</h3>
 
                             <ul className="footer-links-list">
                                 <li>
-                                    <Link to="/team-1">Team</Link>
+                                    <Link to="/team-1">PPC Advertising</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Contact</Link>
+                                    <Link to="/contact">Social Media Marketing</Link>
                                 </li>
                                 <li>
-                                    <Link to="/services-1">Services</Link>
+                                    <Link to="/services-1">Search Engine Optimization</Link>
                                 </li>
                                 <li>
-                                    <Link to="/faq">FAQ</Link>
+                                    <Link to="/faq">Website Optimization</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog-1">Blog</Link>
+                                    <Link to="/blog-1">Data Services</Link>
                                 </li>
                             </ul>
                         </div>
@@ -77,12 +77,12 @@ const Footer = () => {
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
+                            <h3>Contact Us</h3>
 
                             <ul className="footer-contact-info">
                                 <li>
                                     <i className='bx bx-map'></i> 
-                                    725 30th Street, Sacramento, CA 95816, United States
+                                    725 30th Street, Suite 208, Sacramento, CA 95816, United States
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i> 

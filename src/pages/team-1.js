@@ -134,116 +134,11 @@ const Team = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg7} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Steven Smith</h3>
-                                    <span>Support</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg8} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Steven Smith</h3>
-                                    <span>John Terry</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg9} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Amelia Eva</h3>
-                                    <span>John Terry</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg10} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Liam Noah</h3>
-                                    <span>John Terry</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg11} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Olivia Emma</h3>
-                                    <span>John Terry</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-team-box">
-                                <img src={TeamImg12} alt="Team" />
-
-                                <div className="content">
-                                    <h3>Lucas Silva</h3>
-                                    <span>John Terry</span>
-                                </div>
-
-                                <ul className="social-link">
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                </ul>
+                       
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+               
 
 			<Footer />
 		</Layout>

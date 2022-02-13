@@ -25,7 +25,7 @@ const BlogTwo = () => {
 			<NavbarStyleTwo />
 
 			<PageBanner 
-                pageTitle="Blog Grid (3 in Row)" 
+                pageTitle="Two Trees PPC Blog" 
             />
 
             <div className="blog-area bg-f9f9f9 ptb-100">

@@ -23,7 +23,7 @@ const NotFoundPage = () => (
                 <div className="error-content">
                     <img src={ErrorImg} alt="Error" />
                     <h3>Error 404 : Page Not Found</h3>
-                    <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+                    <p>We're sorry! The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
                     <Link to="/" className="default-btn">
                         Back to Homepage
                     </Link>

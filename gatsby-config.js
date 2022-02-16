@@ -9,7 +9,7 @@ module.exports = {
             resolve: `gatsby-source-contentful`,
             options: {
               spaceId: `7dhxqiz9b1gb`,
-              accessToken: `J2pD35YoBuyXpgcNB1EXIlGXJ6TedKaysaafqIdRJ2s`,
+              accessToken: `CFPAT-_19gu2v2wDKq9U4Qvc4bhZZWgsp2JiB0Tdi3tz-F25U`,
               host: `preview.contentful.com`,
             },
           },

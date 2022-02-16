@@ -5,6 +5,14 @@ module.exports = {
         author: `Two Trees PPC`,
     },
     plugins: [
+        {
+            resolve: `gatsby-source-contentful`,
+            options: {
+              spaceId: `7dhxqiz9b1gb`,
+              accessToken: `J2pD35YoBuyXpgcNB1EXIlGXJ6TedKaysaafqIdRJ2s`,
+              host: `preview.contentful.com`,
+            },
+          },
         `gatsby-plugin-react-helmet`,
         {
         resolve: `gatsby-source-filesystem`,

@@ -1,0 +1,38 @@
+import React from 'react';
+import { graphql } from 'gatsby';
+
+const Page = ({ data }) => {
+  return (
+    <main>
+      <h1>{data.contentfulblogPost.title}</h1>
+      <p>{data.contentfulblogPost.description.description}</p>
+      <img
+        src={data.contentfulblogPost.image.file.url}
+        alt={data.title}
+        style={{
+          width: 300,
+          height: 'auto'
+        }}
+      />
+    </main>
+  );
+};
+
+export const data = graphql`
+  query pageQuery($id: String) {
+    contentfulblogPost(id: { eq: $id }) {
+      url
+      title
+      description {
+        description
+      }
+      image {
+        file {
+          url
+        }
+      }
+    }
+  }
+`;
+
+export default Page;

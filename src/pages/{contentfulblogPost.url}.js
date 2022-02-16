@@ -4,10 +4,10 @@ import { graphql } from 'gatsby';
 const Page = ({ data }) => {
   return (
     <main>
-      <h1>{data.contentfulblogPost.title}</h1>
-      <p>{data.contentfulblogPost.description.description}</p>
+      <h1>{data.contentfulBlogPost.title}</h1>
+      <p>{data.contentfulBlogPost.description.description}</p>
       <img
-        src={data.contentfulblogPost.image.file.url}
+        src={data.contentfulBlogPost.image.file.url}
         alt={data.title}
         style={{
           width: 300,

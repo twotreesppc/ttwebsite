@@ -20,7 +20,7 @@ const Page = ({ data }) => {
 
 export const data = graphql`
   query pageQuery($id: String) {
-    contentfulBlogPost(id: { eq: $id }) {
+    contentfulblogPost(id: { eq: $id }) {
       url
       title
       description {

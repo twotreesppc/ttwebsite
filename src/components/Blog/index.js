@@ -48,12 +48,6 @@ return(
                        </div>
 
                       <div className="article-footer">
-                          {/* <div className="article-tags">
-                              <span><i className='bx bx-purchase-tag'></i></span>
-                              <a href="#">Fashion</a>
-                              <a href="#">Games</a>
-                              <a href="#">Travel</a>
-                          </div> */}
 
                           <div className="article-share">
                               <ul className="social">
@@ -68,45 +62,6 @@ return(
 
                       <AuthorInfo data={author}/>
 
-                      {/* <div className="dibiz-post-navigation">
-                          <div className="prev-link-wrapper">
-                              <div className="info-prev-link-wrapper">
-                                  <a href="#">
-                                      <span className="image-prev">
-                                          <img src={BlogImg1} alt="Blog" />
-                                          <span className="post-nav-title">Prev</span>
-                                      </span>
-
-                                      <span className="prev-link-info-wrapper">
-                                          <span className="prev-title">Digital Marketing Strategies for Lead Generation</span>
-                                          <span className="meta-wrapper">
-                                              <span className="date-post">Jun 20, 2020</span>
-                                          </span>
-                                      </span>
-                                  </a>
-                              </div>
-                          </div>
-
-                          <div className="next-link-wrapper">
-                              <div className="info-next-link-wrapper">
-                                  <a href="#">
-                                      <span className="next-link-info-wrapper">
-                                          <span className="next-title">Agencies Can Successfully Recover From COVID?</span>
-                                          <span className="meta-wrapper">
-                                              <span className="date-post">Jun 19, 2020</span>
-                                          </span>
-                                      </span>
-
-                                      <span className="image-next">
-                                          <img src={BlogImg2} alt="Blog" />
-                                          <span className="post-nav-title">Next</span>
-                                      </span>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-
-                      <BlogComments />  */}
                   </div>
               </div>
 

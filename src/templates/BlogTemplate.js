@@ -11,7 +11,6 @@ import Blog from '../components/Blog';
 
 const BlogTemplate = ({data, location}) => {
 const { PostData } = data
-console.log('my data', PostData)
 
   // if (!post) return null;
   return (

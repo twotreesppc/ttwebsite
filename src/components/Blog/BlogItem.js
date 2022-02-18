@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 import moment from 'moment';
 
 const BlogItem = ({data}) => {
-    console.log('Blog Data', data)
     const {slug, title, publishdate, featuredimage, author } = data.node
     return(
         <div className="col-lg-4 col-md-6 col-sm-12">

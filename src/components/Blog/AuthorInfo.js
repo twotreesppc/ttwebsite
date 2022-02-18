@@ -3,7 +3,6 @@ import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import RichText from '../RichText';
 const AuthorInfo = ({data}) => {
   const { name, picture, details } = data
-  console.log('Auhor', data)
   return (
     <div className="article-author">
         <div className="author-profile-header"></div>

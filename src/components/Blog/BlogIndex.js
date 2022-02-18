@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 import BlogItem from "./BlogItem";
 import Paginate from './Paginate';
 const BlogIndex = ({data, currentPage, numPages}) => {
-   console.log('Blog Data', data)
 return(
    <div className="blog-area bg-f9f9f9 ptb-100">
       <div className="container">

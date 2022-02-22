@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
-import BlogItem from "./BlogItem";
+import BlogItem from "../../components/Blog/BlogItem";
 import BlogImg1 from '../../assets/images/blog/blog-img1.jpg'
 import BlogImg2 from '../../assets/images/blog/blog-img2.jpg'
 import BlogImg3 from '../../assets/images/blog/blog-img3.jpg'

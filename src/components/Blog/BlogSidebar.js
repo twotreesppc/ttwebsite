@@ -1,13 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-import TeamImg1 from '../../assets/images/team/mike-sq.jpg'
-import TeamImg2 from '../../assets/images/team/mirah-sq.jpg'
-import TeamImg3 from '../../assets/images/team/aaron-sq.jpg'
-import TeamImg4 from '../../assets/images/team/lexi-sq.jpg'
-import TeamImg5 from '../../assets/images/team/abigail-sq.jpg'
-import TeamImg6 from '../../assets/images/team/cecilia-sq.jpg'
-
 const BlogSidebar = () => {
     return (
         <div className="widget-area">
@@ -101,57 +94,7 @@ const BlogSidebar = () => {
                 </div>
             </div>
 
-            <div className="widget widget_instagram">
-                <ul>
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg1} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg2} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg3} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg4} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg5} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="box">
-                            <img src={TeamImg6} alt="Team" />
-                            <i className="bx bxl-instagram"></i>
-                            <a href="#" target="_blank" className="link-btn"></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            
         </div>
     )
 }

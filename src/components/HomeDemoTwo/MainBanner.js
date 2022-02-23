@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby"
 
 import BannerImage2 from '../../assets/images/two-trees-team.png'
-import BannerImage3 from '../../assets/images/tteam.png'
+import BannerImage3 from '../../assets/images/ttteam.png'
 import Shape1 from "../../assets/images/shape/shape1.png"
 import Shape2 from "../../assets/images/shape/shape2.png"
 import Shape3 from "../../assets/images/shape/shape3.png"

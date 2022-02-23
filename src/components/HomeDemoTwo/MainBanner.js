@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-import BannerImage2 from '../../assets/images/banner-img2.jpg'
-import BannerImage3 from '../../assets/images/banner-img3.jpg'
+import BannerImage2 from '../../assets/images/two-trees-team.png'
+import BannerImage3 from '../../assets/images/tteam.png'
 import Shape1 from "../../assets/images/shape/shape1.png"
 import Shape2 from "../../assets/images/shape/shape2.png"
 import Shape3 from "../../assets/images/shape/shape3.png"
@@ -83,7 +83,7 @@ const MainBanner = () => {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <img src={BannerImage2} alt="Banner One" />
+                                        <img src={BannerImage2} alt="Meet The Two Trees PPC Team" />
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ const MainBanner = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-content">
-                                        <span className="sub-title">Next Level Google Ads Management</span>
+                                        <span className="sub-title">A Team That Gets The Job Done</span>
                                         <h1>Human Managed Google Ads Campaigns</h1>
                                         <p>In a world obsessed with automation and taking human eyes off digital ad spend, we're doubling down on our human investment in creating digital campaign excellence.</p>
                                         
@@ -116,7 +116,7 @@ const MainBanner = () => {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <img src={BannerImage3} alt="Banner Two" />
+                                        <img src={BannerImage3} alt="A team that laughs together, works well together." />
                                     </div>
                                 </div>
                             </div>

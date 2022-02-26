@@ -1,7 +1,9 @@
 import React from "react"
-import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage} from "gatsby-plugin-image"
+import { FacebookProvider, Comments } from 'react-facebook';
 import { Link } from "gatsby";
 import moment from 'moment';
+import Share from "./Share";
 import SEO from "../App/SEO"
 import NavbarStyleTwo from '../App/NavbarStyleTwo';
 import PageBanner from '../Common/PageBanner';
@@ -18,9 +20,9 @@ import BlogImg3 from '../../assets/images/blog/blog-img5.jpg'
 
 import User1 from '../../assets/images/user1.jpg'
 
-//import Share from './Share'
-const Blog = ({data, location}) => {
-const {slug, title, content, publishdate, featuredimage, author, sections } = data
+const stwitterHandle = "@twotreesppc";
+const Blog = ({data, AllCategories, AllTags, location}) => {
+const {slug, title, content, publishdate, featuredimage, author, sections, categories, tags, relatedPosts } = data
 const stwitterHandle = "_MsLinda";
 return(
   <div className="blog-details-area bg-f9f9f9 ptb-100">
@@ -32,13 +34,24 @@ return(
 
                       <div className="article-content">
                           <div className="entry-meta">
-                              <ul>
-                                  <li>
-                                      <i className='bx bx-calendar'></i>
-                                      <span>Last Updated</span>
-                                      {moment(publishdate).format('MMM DD, YYYY')}
-                                  </li>
-                              </ul>
+                                <ul>
+                                    {categories && (
+                                        <li>
+                                            <i className='bx bx-folder-open'></i>
+                                            <span>Category</span>
+                                            { categories && categories.map((cat,index)=>{
+                                                return(
+                                                    <a href="#" key={index}>{cat.name}{categories.length-1 !==index && `, `}</a>  
+                                                )
+                                            })}
+                                        </li>   
+                                    )}                                                                     
+                                    <li>
+                                        <i className='bx bx-calendar'></i>
+                                        <span>Last Updated</span>
+                                        {moment(publishdate).format('MMM DD, YYYY')}
+                                    </li>
+                                </ul>
                           </div>
                           <div className="w-100 my-4"><RichText content={content} /></div>
                           {sections.map((section, index) => (
@@ -48,26 +61,38 @@ return(
                        </div>
 
                       <div className="article-footer">
+                            <div className="article-tags">
+                                <span><i className='bx bx-purchase-tag'></i></span>
+                                { tags && tags.map((tag,index)=>{
+                                    return(
+                                        <a href="#" key={index}>{tag.tag}</a>  
+                                    )
+                                })}
+                            </div>
+
 
                           <div className="article-share">
-                              <ul className="social">
-                                  <li><span>Share:</span></li>
-                                  <li><a href="#" className="facebook" target="_blank"><i className='bx bxl-facebook'></i></a></li>
-                                  <li><a href="#" className="twitter" target="_blank"><i className='bx bxl-twitter'></i></a></li>
-                                  <li><a href="#" className="linkedin" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
-                                  <li><a href="#" className="instagram" target="_blank"><i className='bx bxl-instagram'></i></a></li>
-                              </ul>
+                                <Share socialConfig={{ witter : stwitterHandle,
+                                    config: {
+                                    url: location.href,
+                                    title: title,
+                                    },
+                                }}
+                            />                          
                           </div>
                       </div>
 
                       <AuthorInfo data={author}/>
+                      <FacebookProvider appId="653067601791847">
+                            <Comments href="http://www.facebook.com" />
+                      </FacebookProvider>
 
                   </div>
               </div>
 
               <div className="col-lg-4 col-md-12">
                   <div className="blog-right-sidebar">
-                      <BlogSidebar />
+                      <BlogSidebar location={location} AllCategories={AllCategories} AllTags={AllTags} relatedPosts={relatedPosts} />
                   </div>
               </div>
           </div>

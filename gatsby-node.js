@@ -11,8 +11,20 @@ exports.createPages = async ({ graphql, actions }) => {
                     id
                     slug
                     title
+                    category {
+                      uid
+                    }
                 }
             }
+        }
+        Categories : allContentfulCategory {
+          edges {
+            node {
+              uid
+              name
+              id
+            }
+          }
         }
     }
   `)
@@ -21,6 +33,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const basePath = DEFAULT_BLOG_BASE_PATH;
   const blogs = data.Blogs.edges;
+  const categories = data.Categories.edges;
 
   const templatesDir = path.resolve(__dirname, './src/templates');
   const postsPerPage = DEFAULT_BLOG_POSTS_PER_PAGE;
@@ -39,8 +52,38 @@ exports.createPages = async ({ graphql, actions }) => {
   })
   })
 
+
+  categories.forEach((cat) => {
+    let blogsWithCat = blogs.filter(
+      (blog) =>
+        blog.node.category && blog.node.category.uid === cat.node.uid
+    );
+    let categoryPath = `${basePath}/${cat.node.uid}`;
+    let cnumPages = Math.ceil(blogsWithCat.length / postsPerPage)
+    Array.from({ length: cnumPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `${categoryPath}` : `${categoryPath}/${i + 1}`,
+        component:  path.resolve(templatesDir, 'BlogCategoryListTemplate.js'),
+        context: {
+          uid: cat.uid,
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+        }
+      })
+    });
+    
+  });
+
+  
+
+
+
+  
+
   blogs.forEach(({ node }) => {     
-    let blogURL = `${basePath}/${node.slug}`;
+    let blogURL = `${node.slug}`;
 
     createPage({
       path: blogURL,

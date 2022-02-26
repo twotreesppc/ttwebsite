@@ -9,13 +9,13 @@ const BlogItem = ({data}) => {
         <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="single-blog-post">
                 <div className="image">
-                    <Link to={slug} className="d-block">
+                    <Link to={`/${slug}`} className="d-block">
                     <GatsbyImage image={getImage(featuredimage)} alt={title} />
                     </Link>
                 </div>
                 <div className="content">
                     <h3>
-                        <Link to={slug}>
+                        <Link to={`/${slug}`}>
                             {title}
                         </Link>
                     </h3>

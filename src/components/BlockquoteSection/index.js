@@ -44,7 +44,6 @@ const config = {
 };
 
 const BlockquoteSection = ({ content }) => {
-    console.log('uu content', content)
   return <blockquote className="wp-block-quote">{content && renderRichText(content, config)}</blockquote>;
 };
 

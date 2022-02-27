@@ -22,7 +22,7 @@ import User1 from '../../assets/images/user1.jpg'
 
 const stwitterHandle = "@twotreesppc";
 const Blog = ({data, AllCategories, AllTags, location}) => {
-const {slug, title, content, publishdate, featuredimage, author, sections, categories, tags, relatedPosts } = data
+const {slug, title, content, publishdate, featuredimage, author, sections, category, tags, relatedPosts } = data
 const stwitterHandle = "_MsLinda";
 return(
   <div className="blog-details-area bg-f9f9f9 ptb-100">
@@ -35,15 +35,11 @@ return(
                       <div className="article-content">
                           <div className="entry-meta">
                                 <ul>
-                                    {categories && (
+                                    {category && (
                                         <li>
                                             <i className='bx bx-folder-open'></i>
                                             <span>Category</span>
-                                            { categories && categories.map((cat,index)=>{
-                                                return(
-                                                    <a href="#" key={index}>{cat.name}{categories.length-1 !==index && `, `}</a>  
-                                                )
-                                            })}
+                                            <a href="#">{category.name}</a>                                             
                                         </li>   
                                     )}                                                                     
                                     <li>

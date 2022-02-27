@@ -55,7 +55,7 @@ const BlogSidebar = ({AllCategories, AllTags, relatedPosts}) => {
                 <ul>
                     { AllCategories && AllCategories.edges.map((cat, index)=>{
                         return(
-                            <li key={index}><Link to={`/${cat.node.uid}`}>{cat.node.name}</Link></li>
+                            <li key={index}><a href="#" key={index}>{cat.node.name}</a></li>
                         )
                     })}
                 </ul>

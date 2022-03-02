@@ -17,7 +17,6 @@ import ImageSection from '../ImageSection';
 
 const ComponentContainer = ({ data }) => {
   const renderComponent = (data) => {
-    console.log('uu Data', data.content)
     switch (data.__typename) {
       case 'ContentfulSectionImage':
         return <ImageSection image={data.image} />;

@@ -40,7 +40,7 @@ query ($skip: Int!, $limit: Int!) {
   Blogs: allContentfulBlogPost(
       skip: $skip
       limit: $limit
-      sort: {fields: publishdate, order: ASC}
+      sort: {fields: publishdate, order: DESC}
     ) {
       edges {
         node {

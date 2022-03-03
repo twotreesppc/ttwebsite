@@ -1,8 +1,4 @@
 import React from 'react';
-import { Link } from "gatsby"
-
-import BannerImg from '../../assets/images/banner-img5.png'
-
 import Shape2 from '../../assets/images/shape/shape2.png'
 import Shape3 from '../../assets/images/shape/shape3.png'
 import Shape5 from '../../assets/images/shape/shape5.png'
@@ -40,7 +36,6 @@ const MainBanner = () => {
                             </div>
                         </div>
                     </form>
-                    <img src={BannerImg} alt="Banner" />
                 </div>
             </div>
 

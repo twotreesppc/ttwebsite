@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby"
 
 import BannerImg from '../../assets/images/banner-img5.png'
 

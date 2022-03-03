@@ -61,7 +61,7 @@ Default CSS
   --mainColor: #3b89d6;
   --optionalColor: #4b5280;
   --whiteColor: #ffffff;
-  --blackColor: #080e32;
+  --blackColor: #000000;
   --fontSize: 16px;
   --transition: .5s;
   scroll-behavior: initial;

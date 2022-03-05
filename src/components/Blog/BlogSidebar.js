@@ -55,7 +55,7 @@ const BlogSidebar = ({AllCategories, AllTags, relatedPosts}) => {
                 <ul>
                     { AllCategories && AllCategories.edges.map((cat, index)=>{
                         return(
-                            <li key={index}><a href="#" key={index}>{cat.node.name}</a></li>
+                            <li key={index}><Link to={`/blog/${cat.node.uid}`} key={index}>{cat.node.name}</Link></li>
                         )
                     })}
                 </ul>
@@ -67,7 +67,7 @@ const BlogSidebar = ({AllCategories, AllTags, relatedPosts}) => {
                 <div className="tagcloud">
                     { AllTags && AllTags.edges.map(({node}, index)=>{
                         return(
-                            <a href="#"  key={index}>{node.tag}</a>
+                            <Link to={`/blog/${node.uid}`} key={index}>{node.tag}</Link>
                         )
                     })}
                 </div>

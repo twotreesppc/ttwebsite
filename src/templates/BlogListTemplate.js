@@ -12,7 +12,30 @@ import BlogIndex from '../components/Blog/BlogIndex';
 const BlogListTemplate = (props) => {
   const { data } = props
   const { currentPage, numPages } = props.pageContext  
+  const { AllBlogs, Tags } = data
   const { edges: blogsData } = data.Blogs
+  console.log('All tags',Tags)
+  console.log('All blogs',AllBlogs)
+
+  // Tags.edges.map((tag) => {
+  //   let blogsWithTag = AllBlogs.edges.filter(
+  //     (blog) => {        
+  //       return blog.node.tags && blog.node.tags.find((item)=>{
+  //         if(item.uid === tag.node.uid)
+  //         {
+  //           return item
+  //         }
+  //       })
+  //     }        
+  //   );
+
+  //   console.log('Tag Name',tag.node.tag)
+  //   console.log('Tag Name Blog', blogsWithTag)
+
+  //  // let tagPath = `${basePath}/${tag.node.uid}`;
+  //   //let tnumPages = Math.ceil(blogsWithTag.length / postsPerPage)
+
+  // })
 
   if (!blogsData) return null;
   return (
@@ -37,6 +60,31 @@ export default BlogListTemplate;
 
 export const data = graphql`
 query ($skip: Int!, $limit: Int!) {
+  AllBlogs: allContentfulBlogPost(limit: 2) {
+      edges {
+          node {
+              id
+              slug
+              title
+              category {
+                uid
+              }
+              tags {
+                tag
+                uid
+              }
+          }
+      }
+  }
+  Tags : allContentfulTags {
+    edges {
+      node {
+        id
+        uid
+        tag
+      }
+    }
+  }
   Blogs: allContentfulBlogPost(
       skip: $skip
       limit: $limit

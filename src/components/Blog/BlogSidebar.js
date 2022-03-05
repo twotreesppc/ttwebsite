@@ -3,6 +3,13 @@ import { Link } from "gatsby"
 import moment from 'moment';
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
+import TeamImg1 from '../../assets/images/team/mike-sq.jpg'
+import TeamImg2 from '../../assets/images/team/mirah-sq.jpg'
+import TeamImg3 from '../../assets/images/team/aaron-sq.jpg'
+import TeamImg4 from '../../assets/images/team/lexi-sq.jpg'
+import TeamImg5 from '../../assets/images/team/abigail-sq.jpg'
+import TeamImg6 from '../../assets/images/team/cecilia-sq.jpg'
+
 const BlogSidebar = ({AllCategories, AllTags, relatedPosts}) => {
     console.log('AllTag',relatedPosts)
     return (

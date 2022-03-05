@@ -14,6 +14,10 @@ exports.createPages = async ({ graphql, actions }) => {
                     category {
                       uid
                     }
+                    tags {
+                      tag
+                      uid
+                    }
                 }
             }
         }
@@ -26,6 +30,15 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
+        Tags : allContentfulTags {
+          edges {
+            node {
+              id
+              uid
+              tag
+            }
+          }
+        }
     }
   `)
   const DEFAULT_BLOG_BASE_PATH = '/blog';
@@ -34,6 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const basePath = DEFAULT_BLOG_BASE_PATH;
   const blogs = data.Blogs.edges;
   const categories = data.Categories.edges;
+  const tags = data.Tags.edges;
 
   const templatesDir = path.resolve(__dirname, './src/templates');
   const postsPerPage = DEFAULT_BLOG_POSTS_PER_PAGE;
@@ -52,6 +66,36 @@ exports.createPages = async ({ graphql, actions }) => {
   })
   })
 
+  tags.forEach((tag) => {
+    let blogsWithTag = blogs.filter(
+      (blog) => {        
+        return blog.node.tags && blog.node.tags.find((item)=>{
+          if(item.uid === tag.node.uid)
+          {
+            return item
+          }
+        })
+      }   
+    );
+
+    let tagPath = `${basePath}/${tag.node.uid}`;
+    let tnumPages = Math.ceil(blogsWithTag.length / postsPerPage)
+
+    Array.from({ length: tnumPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `${tagPath}` : `${tagPath}/${i + 1}`,
+        component:  path.resolve(templatesDir, 'BlogTagListTemplate.js'),
+        context: {
+          uid: tag.node.uid,
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages : tnumPages,
+          currentPage: i + 1,
+        }
+      })
+    })
+  })
+
 
   categories.forEach((cat) => {
     let blogsWithCat = blogs.filter(
@@ -65,15 +109,14 @@ exports.createPages = async ({ graphql, actions }) => {
         path: i === 0 ? `${categoryPath}` : `${categoryPath}/${i + 1}`,
         component:  path.resolve(templatesDir, 'BlogCategoryListTemplate.js'),
         context: {
-          uid: cat.uid,
+          uid: cat.node.uid,
           limit: postsPerPage,
           skip: i * postsPerPage,
-          numPages,
+          numPages : cnumPages,
           currentPage: i + 1,
         }
       })
-    });
-    
+    });    
   });
 
   

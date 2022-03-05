@@ -11,8 +11,12 @@ import BlogIndex from '../components/Blog/BlogIndex';
 
 const BlogCategoryListTemplate = (props) => {
   const { data } = props
-  const { currentPage, numPages } = props.pageContext  
+  const { currentPage, numPages, uid } = props.pageContext  
   const { edges: blogsData } = data.Blogs
+  const { CategoryInfo } = data
+  
+
+  console.log('Number of paes', CategoryInfo)
 
   if (!blogsData) return null;
   return (
@@ -21,9 +25,9 @@ const BlogCategoryListTemplate = (props) => {
         <NavbarStyleTwo />
 
         <PageBanner 
-            pageTitle="Blog" 
+            pageTitle={`Category : ${CategoryInfo.name}`} 
         />
-        <BlogIndex data={blogsData} currentPage={currentPage} numPages={numPages}/>  
+        <BlogIndex data={blogsData} currentPage={currentPage} numPages={numPages} path={`blog/${uid}`}/>  
         <Footer />
     </Layout>
   );
@@ -36,8 +40,12 @@ BlogCategoryListTemplate.propTypes = {
 export default BlogCategoryListTemplate;
 
 export const data = graphql`
-query ($skip: Int!, $limit: Int!) {
+query ($uid: String!, $skip: Int!, $limit: Int!) {
+  CategoryInfo : contentfulCategory(uid: {eq: $uid}) {
+    name
+  }
   Blogs: allContentfulBlogPost(
+      filter: {category: {uid: {eq: $uid}}}
       skip: $skip
       limit: $limit
       sort: {fields: publishdate, order: DESC}
